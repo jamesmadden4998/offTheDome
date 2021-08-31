@@ -1,0 +1,60 @@
+.nav ul {
+    list-style: none;
+    background-color: #888787;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid  #e616d5;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: rgb(58, 255, 229);
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: #e616d5;
+  }
+   
+  .nav a.active {
+    background-color: rgb(58, 255, 229);
+    color: #e616d5;
+    cursor: default;
+  }
+   
+  @media screen and (min-width: 480px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: auto;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+   
+    /* Option 1 - Display Inline 
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }*/
+   
+    /* Options 2 - Float*/
+    .nav li {
+      float: left;
+    }
+    .nav ul {
+      overflow: auto;
+      width: auto;
+      margin: 0 auto;
+    }
+    .nav {
+      background-color:#e616d5;
+    }
+  }

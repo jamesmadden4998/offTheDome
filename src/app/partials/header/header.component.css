@@ -1,0 +1,18 @@
+.container-left{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container-right{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.header {
+    padding: 42px;
+    text-align: center;
+    background: #f052f0;
+    color: white;
+    font-size: 30px;
+  }
+  
